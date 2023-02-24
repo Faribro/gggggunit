@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 /* Homepage Styles */
 
 #hpage_services{ position:relative; margin:0 auto; display:block; width:960px; padding:30px 0 0 0; background:url("images/hpage_services_bg.gif") top left repeat-x; border-top:1px solid #999999; border-bottom:1px solid #999999;}
@@ -8,6 +9,11 @@
 #hpage_services strong{float:left; margin:8px 0 0 10px; padding:0; font-size:22px; font-weight:normal; color:#4A4A4A; background-color:#FFF;}
 #hpage_services p{display:block; margin:0; padding:10px 0 0 0; clear:both; line-height:1.6em;}
 #hpage_services .spacer{clear:both; padding:8px 0; line-height:normal;}
+#hpage_services .block a{display:block; margin:0; padding:0; font-size:14px; font-weight:bold; color:#4A4A4A; background-color:#E0E0E0;}
+#hpage_services .block a:hover{color:#B4B4B4;}
+#hpage_services .block a.readmore{display:inline; float:right; margin:0; padding:0; font-size:14px; font-weight:bold; color:#4A4A4A; background-color:#E0E0E0;}
+#hpage_services .block a.readmore:hover{color:#B4B4B4;}
+
 
 /* Latest Homepage Projects */
 
@@ -22,6 +28,7 @@
 #hpage_latest p a{display:block; margin:0; padding:0; font-size:14px; font-weight:bold; color:#4A4A4A; background-color:#E0E0E0;}
 #hpage_latest p a:hover{color:#B4B4B4;}
 #hpage_latest p a.readmore{display:inline; float:right; margin:0; padding:0; font-size:14px; font-weight:bold; color:#4A4A4A; background-color:#E0E0E0;}
+
 
 @media  only screen and (max-width: 767px) {
 
